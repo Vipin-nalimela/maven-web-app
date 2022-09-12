@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>AnuTech.com- Home Page</title>
+<title>AnuTech.com - Home Page</title>
 <link href="images/log4.png" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Welcome to Anu Technologies.</h1>
-<h2 align="center"> Anu Technologies is an Institute where we teach DevOps. 
+<h2 align="center"> Anu Technologies is an Institute where we teach DevOps with AWS. 
 	An educated mind can teach many</h2>
 <hr>
 <div style="text-align: center;">
@@ -22,14 +22,13 @@
 		Hyderabad,
 		anutechologies27@gmail.com
 		<br>
-		<a href="mailto:myAnutech@gmail.com">Mail to Anu Technologies</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Anu Technologies - Consultant, Training, Development Center.</p>
+<p align=center>Anu Technologies -  Training Center.</p>
 <p align=center><small>Copyrights 2019 by <a href="http://myAnu.tech/">Anu Technologies</a> </small></p>
 
 </body>
