@@ -25,7 +25,7 @@ public class EmployeeService {
 		js.put("Name", "Anu Technologies");
 		js.put("Calling Name", "AnuTechs");
 		js.put("DOB", "April 19, 2018");
-		js.put("Hobbies", "Singing, Reading Technical Blogs,Teaching, Helping techies");
+		js.put("Hobbies", "Singing, updating myself, Helping techies");
 		js.put("Places he like", "India, Singapore, Australia");
 		return js.toString();
 }
