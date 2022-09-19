@@ -19,7 +19,7 @@
 	</span>
 	<span style="font-weight: bold;">
 		Anu Technologies, 
-		Hyderabad,
+		Hyderabad Telangana,
 		anutechologies27@gmail.com
 		<br>
 	</span>
