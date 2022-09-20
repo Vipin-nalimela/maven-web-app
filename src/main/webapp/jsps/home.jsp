@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Anu Technologies.</h1>
-<h2 align="center"> Anu Technologies is an Institute where we teach DevOps with AWS. 
+<h2 align="center"> Anu Technologies is an Institute where we teach DevOps with AWS, Terraform 
 	An educated mind can teach many</h2>
 <hr>
 <div style="text-align: center;">
