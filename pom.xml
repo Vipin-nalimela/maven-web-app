@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Anu Technologies Zepto Snapshot </name>
-	      <url>http://54.160.149.19:8081/repository/zepto-snapshot/</url>
+	      <url>http://54.175.122.16:8081/repository/snapshot-zepto/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
