@@ -48,7 +48,7 @@ node
  mail bcc: 'myanutech@gmail.com', body: '''Build is over
 
  Thanks,
- Landmark Technologies,
+ Anu Technologies,
  .''', cc: 'myanutech@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'myanutech@gmail.com'
  }
  */
