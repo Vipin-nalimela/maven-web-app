@@ -1,0 +1,34 @@
+node {
+    
+    def mavenHome = tool name : "maven"
+    
+    stage('Code checkout') {
+        
+       git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/AnuTechnologies/maven-web-app.git' 
+        
+        
+    }
+    
+    stage('build the package'){
+        
+        
+        sh "${mavenHome}/bin/mvn clean package"
+    }
+    
+    
+    stage('sonar scans'){
+        
+        
+      sh "${mavenHome}/bin/mvn sonar:sonar"
+        
+    }
+    
+    stage('upload artifact into nexus'){
+        
+        sh "${mavenHome}/bin/mvn clean deploy"
+        
+        
+    }
+    
+    
+}
