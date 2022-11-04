@@ -1,0 +1,55 @@
+pipeline{
+    
+    agent any
+    
+    tools{
+        
+        maven 'maven'
+    }
+    
+    stages{
+        
+        stage('Git Clone'){
+            
+            steps{
+                
+                git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/AnuTechnologies/maven-web-app.git'
+                
+            }
+            
+        }
+        
+        stage('build the package'){
+            
+            steps{
+                
+                sh 'mvn clean package'
+                
+            }
+            
+        }
+        
+        stage('sonarqube report') {
+            
+            steps{
+                
+                sh 'mvn sonar:sonar'
+                
+            }
+            
+        }
+        
+        stage('upload to nexus') {
+            
+            steps{
+                
+                sh 'mvn clean deploy'
+                
+            }
+            
+        }
+        
+        
+    }
+    
+  }
